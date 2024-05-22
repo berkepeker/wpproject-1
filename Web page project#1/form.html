@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>East Coast Delivery</title>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+    <link rel="stylesheet" type="text/css" href="cssfile.css" />
+</head>
+
+<body>
+    <ul class="nav">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="howthingswork.html">   WORK WITH US    </a></li>
+        <li><a href="contact.html">    CONTACT    </a></li>
+        <li><a href="aboutus.html">     ABOUT US     </a></li>
+      </ul>
+    <div id="intro5">
+        
+       <h1 id="topic">EAST COAST DELIVERY</h1></div>
+    </div>
+    
+    <h2>First, you need to fill this form. Then we will contact you about delivery.</h2>
+    <form class="form">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+         
+        <label for="pnumber">Phone Number</label>
+        <input type="number" id="pnumber" name="phonenumber" placeholder="+90...">
+        
+        
+
+        <label for="d">What type of transport do you need?</label>
+        <select id="type" name="type" >
+          <option value="oott">out of town transport</option>
+          <option value="uc">local transport</option>
+         
+        </select>
+        
+        <label for="weight">Weight</label>
+        
+        <input type="number" id="weight" name="weight" placeholder="kg...">
+        <h3>How would you like us to contact you?</h3>
+        <input type="radio" id="call" name="contact" value="call">
+        <label for="html">By phone.</label><br>
+        <input type="radio" id="message" name="contact" value="message">
+        <label for="css">By text message</label>
+        <button id="submitbutton" onclick="alertFunction()">Submit</button>
+        <script>
+          function alertFunction() {
+            alert("Alert from javascript!");
+          }
+          </script>
+
+      </form>
+    
+
+      
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
